@@ -12,7 +12,7 @@ Requirements
   
   - A working install of FusionDirectory (please have a look to my
     fusiondirectory role)
-  - an runing instance of 389DS (you can also check my 389DS role)
+  - A running instance of 389DS (you can also check my 389DS role)
 
 
 Role Variables
