@@ -1,16 +1,19 @@
-Ansible role: Install and configure FusionDirectory
-====================================================
+Ansible role: configure FusionDirectory to work with 389DS
+==========================================================
 
 WIP - Work in progress, don't use this role except if you want to improve it
 
-A role to install and configure fusiondirectory. (for more information about
-this project please visit the official website https://www.fusiondirectory.org)
+A role to configure and integrate fusiondirectory with 389DS on centos. (for 
+more information about this project please visit the official website 
+https://www.fusiondirectory.org)
 
 Requirements
 ------------
+  
+  - A working install of FusionDirectory (please have a look to my
+    fusiondirectory role)
+  - an runing instance of 389DS (you can also check my 389DS role)
 
-You need to install at least PHP 5.6 for that i advise you to use the remi
-repository managed by the geerlingguy php and remi roles.
 
 Role Variables
 --------------
